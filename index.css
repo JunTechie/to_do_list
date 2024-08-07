@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+  font-family: 'NOto Sans KR';
+}
+
+#할일들 > p {
+  cursor: pointer;
+}
+
+input {
+  border: none;
+  border-bottom: 1px solid;
+}
+button {
+  background-color: skyblue;
+  border: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+button:hover {
+  background-color: cornflowerblue;
+}
+.done {
+  text-decoration: line-through;
+  color: grey;
+}
